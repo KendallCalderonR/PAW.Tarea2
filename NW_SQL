@@ -1,0 +1,11 @@
+sobre la bd northwind, programe las siguientes propiedades a las tablas:
+- a la tabla de OrderDetails agréguele 
+	+ una propiedad que calcule el monto del descuento.
+	+ una propiedad que calcule el monto bruto de la línea.
+	+ una propiedad que calcule el monto neto de la línea.
+	+ incluya un proyecto de Unit Testing que verifique que los cálculos de estas propiedades son correctos.
+- a la tabla Orders agréguele
+	+ una propiedad que calcule la cantidad de días que se demoró la fabricación de la orden.
+	+ incluya el nombre de Customer, el del Employee y el del ShipVia.
+- a la tabla de Products agréguele
+	+ una propiedad que traiga el nombre del Supplier y el del ProductCategory.
