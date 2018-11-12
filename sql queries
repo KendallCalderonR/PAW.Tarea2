@@ -1,0 +1,35 @@
+
+-- Listado de órdenes por rango de fechas.
+
+CREATE VIEW ORDENFECHAS
+AS SELECT * FROM Orders order by OrderDate asc;
+
+-- Listado de órdenes por nombre de ciudad a la que remitió.
+
+SELECT distinct ShipCity FROM Orders order by ShipCity asc;
+
+CREATE VIEW ORDENCIUDAD
+AS SELECT * FROM Orders where ShipCity = $shipcity order by ShipCity asc;
+
+-- Listado de detalles de órdenes que contienen un nombre de artículo en particular.
+SELECT OD.OrderID , PR.ProductName , OD.Quantity , OD.UnitPrice , OD.Discount FROM [Order Details] OD
+ INNER JOIN Products PR ON  PR.ProductID  = OD.ProductID WHERE PR.ProductName = $PRODUCTNAME ;
+
+-- Listado de órdenes por nombre de Cliente.
+SELECT OS.* FROM ORDERS OS
+INNER JOIN Customers CX ON CX.CustomerID = OS.CustomerID 
+WHERE CX.ContactName = $CONTACTNAME
+
+
+-- Listado de detalles de órdenes por nombre de categoría de artículo.
+SELECT OD.* FROM [Order Details] OD
+INNER JOIN  Products PR  ON PR.ProductID = OD.ProductID 
+INNER JOIN Categories CT ON PR.CategoryID = CT.CategoryID
+WHERE CT.CategoryName = $CATEGORYNAME
+
+-- Listado de órdenes por nombre de vendedor.
+SELECT OS.* FROM ORDERS OS
+INNER JOIN [Order Details] OD ON OD.OrderID = OS.OrderID
+INNER JOIN Products PR  ON PR.ProductID = OD.ProductID
+INNER JOIN Suppliers SP ON PR.ProductID = SP.SupplierID
+WHERE SP.ContactName = $SUPPLIERNAME
