@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PAW.Tarea2.Wcf", "PAW.Tarea2.Wcf\PAW.Tarea2.Wcf.csproj", "{0D093D39-D190-4D64-9F7D-C654A5722DE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PAW.Tarea.UnitTest", "PAW.Tarea.UnitTest\PAW.Tarea.UnitTest.csproj", "{383930A4-A658-4A0D-917A-73773BAF4208}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D093D39-D190-4D64-9F7D-C654A5722DE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D093D39-D190-4D64-9F7D-C654A5722DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D093D39-D190-4D64-9F7D-C654A5722DE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D093D39-D190-4D64-9F7D-C654A5722DE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{383930A4-A658-4A0D-917A-73773BAF4208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{383930A4-A658-4A0D-917A-73773BAF4208}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{383930A4-A658-4A0D-917A-73773BAF4208}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{383930A4-A658-4A0D-917A-73773BAF4208}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAB9F3AB-4934-4E0B-81BC-98187F1BD1D2}
+	EndGlobalSection
+EndGlobal
