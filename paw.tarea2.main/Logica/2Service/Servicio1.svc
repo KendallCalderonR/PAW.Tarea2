@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="paw.tarea2.main.Logica.Servicio1" CodeBehind="Servicio1.svc.cs" %>
