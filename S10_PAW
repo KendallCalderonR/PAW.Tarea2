@@ -1,6 +1,8 @@
 Clase semana 10 
 
 Palabra kuchikuchi: Scaffold / Andamio 
+Helper 
+Decorated
 
 Tema:  UI
 
@@ -14,5 +16,18 @@ PRograWeb.Lunes.ServcioCalcuadora.
 https://domain.com/{controller}/{accion}
 
 public class HOmeCOntroller : Controller {
-public ActionResult index(){}
+public ActionResult index(){ return view();}
 }
+
+
+
+ViewBag . 
+Es una array de strings. > es dinamico 
+x["Hello"].Value
+
+DLR >
+se necesita hacer un casting del tipo de dato cuando lo esta guardando en una variable.
+
+[bueno y pos aqui e profe explica todo el MVC xD]
+
+
