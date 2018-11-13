@@ -1,0 +1,18 @@
+Clase semana 10 
+
+Palabra kuchikuchi: Scaffold / Andamio 
+
+Tema:  UI
+
+UI ==> MVC ==> WFC ==> EntityFWK ==> Database 
+
+Trabajando con el primer prj que creamos.
+
+PRograWeb.Lunes.ServcioCalcuadora. 
+> incluye folders: model , view , controller.
+
+https://domain.com/{controller}/{accion}
+
+public class HOmeCOntroller : Controller {
+public ActionResult index(){}
+}
