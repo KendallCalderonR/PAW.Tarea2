@@ -1,0 +1,28 @@
+modelo es una  clase 
+ 
+ 1. ocupa una lista que pinte la lista como RAZOR 
+ 2. controlador qu tngo un mtodo que se llama igual que la vista.  
+ 3. controlador que tiene una accion con al menos tres metodos, 
+    post  y get 
+      get:   viewbag , pinte una vista  
+      post:   agarra datos de la vista , magic, (campos, consulta, DB) y desp tiene un valor listo para que otra vista lo puede pintar 
+      
+  Decdorate .
+   paara mas menter los datos lo  mas limpio a la base de datos. 
+   PARTIAL 
+   MTAdaTATYPEATTRIBUTE 
+   extender las vistas para que se enrriquescan. 
+   
+Add : label, min, rango, REGEX, campo required, or custom(palindromo, #primo, año bisiesto). 
+
+
+Validaciones al modelo para reciclar en diferentes campos como decoracion como metodos de la metadata
+
+De hoy en 8 
+ejercicio de }MVC] 
+controller 
+vista y
+model
+
+IDK  this thing is too complex fo mah lazy mind.
+ 
